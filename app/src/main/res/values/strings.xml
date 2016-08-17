@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PrimeQuiz</string>
+    <string name="isTheNumString">Is the number</string>
+    <string name="aPrimeString">a prime number?</string>
+</resources>
