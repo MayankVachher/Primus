@@ -31,6 +31,8 @@ public class MainActivity_with_snackbar extends AppCompatActivity {
         skipButton = (Button) findViewById(R.id.button_skip);
         coordinatorLayout = (CoordinatorLayout) findViewById(R.id.main_coordinatorLayout);
 
+        genRandomNumberAndSet(numberDisplayed);
+
         if (yesButton != null) {
             yesButton.setOnClickListener(isPrimeListener);
         }
