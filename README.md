@@ -9,7 +9,7 @@ _TA for the Assignment_: Hiya Popli
 >
 _Student Details_: Mayank Vachher (2013059)
 >
-_APK link_: [primus_debug.apk](primus_debug.apk)
+_APK link_: [primus_debug.apk](primus-debug.apk)
 
 
 __Note__: Snackbar has been used instead of Toast, to show the result. There also exists another activity which contains a Toast based implementation of the Main Activity.
