@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView numberDisplayed = (TextView) findViewById(R.id.number__prime_number_display);
+        TextView numberDisplayed = (TextView) findViewById(R.id.numberDisplayed);
         numberDisplayed.setText(genRandomNumber()+"");
 
         Button yesButton = (Button) findViewById(R.id.button_yes);
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
     private View.OnClickListener isPrimeListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            TextView numberDisplayed = (TextView) findViewById(R.id.number__prime_number_display);
+            TextView numberDisplayed = (TextView) findViewById(R.id.numberDisplayed);
             Integer numberToCheck = Integer.parseInt(numberDisplayed.getText().toString());
 
             Boolean result = checkPrime(numberToCheck);
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
     private View.OnClickListener nextButtonListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            TextView number__primeNumberDisplay = (TextView) findViewById(R.id.number__prime_number_display);
+            TextView number__primeNumberDisplay = (TextView) findViewById(R.id.numberDisplayed);
             number__primeNumberDisplay.setText(genRandomNumber()+"");
         }
     };

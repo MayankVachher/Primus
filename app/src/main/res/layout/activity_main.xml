@@ -35,7 +35,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/number__prime_number_display"
+                    android:id="@+id/numberDisplayed"
                     android:text="5"
                     android:textSize="100sp"
                     android:layout_weight="3"
@@ -50,7 +50,7 @@
                     android:textSize="15sp"
                     android:textAllCaps="true"
                     android:layout_centerHorizontal="true"
-                    android:layout_below="@id/number__prime_number_display"/>
+                    android:layout_below="@id/numberDisplayed"/>
             </RelativeLayout>
         </RelativeLayout>
 
