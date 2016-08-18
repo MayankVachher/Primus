@@ -21,7 +21,10 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:orientation="vertical"
+        android:layout_marginTop="50dp"
         android:id="@+id/wrapper_actionItems">
-
+        <include
+            android:id="@+id/action_items"
+            layout="@layout/content_action_items"/>
     </LinearLayout>
 </LinearLayout>

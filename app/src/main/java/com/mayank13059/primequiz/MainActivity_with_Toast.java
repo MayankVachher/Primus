@@ -13,12 +13,12 @@ import java.util.Random;
 /**
  * Created by D4RKF0RCE on 15/08/16.
  */
-public class MainActivity extends AppCompatActivity {
+public class MainActivity_with_Toast extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_with_toast);
 
         TextView numberDisplayed = (TextView) findViewById(R.id.numberDisplayed);
         numberDisplayed.setText(genRandomNumber()+"");

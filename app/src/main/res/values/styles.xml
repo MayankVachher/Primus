@@ -15,4 +15,18 @@
         <item name="android:actionMenuTextColor">@color/colorIcons</item>
     </style>
 
+    <style name="YesButton" parents="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorPrimaryLight</item>
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+    </style>
+
+    <style name="NoButton" parents="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorPrimaryLight</item>
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+    </style>
+
+    <style name="SkipButton" parents="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorPrimaryLight</item>
+    </style>
+
 </resources>
